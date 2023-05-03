@@ -1,8 +1,8 @@
 class Fizzy < Formula
   desc "Fast, simple fuzzy text selector with an advanced scoring algorithm"
   homepage "https://github.com/razvanazamfirei/fzy"
-  url "https://github.com/razvanazamfirei/fzy/releases/download/1.1/fzy-1.1.tar.gz"
-  sha256 "70354a023d7d56e3c176161bee846ab95e554c12c532fb2a329e3754091ec103"
+  url "https://github.com/razvanazamfirei/fzy/releases/download/1.2/fzy-1.2.tar.gz"
+  sha256 "77ae21d066f1231b5b41cb091fedada37ea155ed014a18a6f79947b1fdeb6bfa"
   license "MIT"
   head "https://github.com/razvanazamfirei/fzy.git", branch: "master"
 
