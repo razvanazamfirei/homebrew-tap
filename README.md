@@ -1,10 +1,10 @@
-# Razvanazamfirei Tap
+# Homebrew Tap
 
-## How do I install these formulae?
+## How do I install these formulae and casks?
 
-`brew install razvanazamfirei/tap/<formula>`
+`brew install razvanazamfirei/tap/<formula/cask>`
 
-Or `brew tap razvanazamfirei/tap` and then `brew install <formula>`.
+Or `brew tap razvanazamfirei/tap` and then `brew install <formula/cask>`.
 
 ## Documentation
 
