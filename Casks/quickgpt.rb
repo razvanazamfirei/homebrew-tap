@@ -1,6 +1,6 @@
 cask "quickgpt" do
-  version "1.4.1"
-  sha256 "0c13ac0e5e3f7cedae32e0cee9d4430c0dfff98ce5c72b70d921c037e061c5d0"
+  version "1.4.2"
+  sha256 "39ab214fca1f49fe7dbd9120ca51c7f52e0bd58c62e8c347c727c379247c76af"
 
   url "https://github.com/sindresorhus/quickgpt-meta/releases/download/v#{version}/QuickGPT.app.zip",
       verified: "github.com/sindresorhus/"
