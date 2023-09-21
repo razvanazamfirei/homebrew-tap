@@ -13,6 +13,8 @@ cask "upscayl" do
     strategy :github_latest
   end
 
+  depends_on macos: ">= :high_sierra"
+
   app "Upscayl.app"
 
   zap trash: [

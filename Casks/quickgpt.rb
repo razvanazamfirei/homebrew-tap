@@ -13,6 +13,8 @@ cask "quickgpt" do
     strategy :sparkle, &:short_version
   end
 
+  depends_on macos: ">= :ventura"
+
   app "QuickGPT.app"
 
   zap trash: [
