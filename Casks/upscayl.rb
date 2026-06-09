@@ -13,7 +13,9 @@ cask "upscayl" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :high_sierra"
+  disable! date: "2026-06-08", because: :no_longer_meets_criteria
+
+  depends_on macos: :ventura
 
   app "Upscayl.app"
 
