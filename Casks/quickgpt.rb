@@ -13,7 +13,9 @@ cask "quickgpt" do
     strategy :sparkle, &:short_version
   end
 
-  depends_on macos: ">= :ventura"
+  disable! date: "2026-06-08", because: :no_longer_meets_criteria
+
+  depends_on macos: :ventura
 
   app "QuickGPT.app"
 
